@@ -1,114 +1,151 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Portafolio Personal</title>
+  <title>Mi Portafolio</title>
   <style>
-    /* Reset de estilos para el body */
-    body {
-    margin: 0;
-    padding: 0;
-    }
+      /* Reset de estilos para el body */
+      body {
+        margin: 0;
+        padding: 0;
+      }
 
-    /* Estilos generales para los encabezados */
-    h1, h2 {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    }
+      /* Estilos generales para los encabezados */
+      h1, h2 {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+      }
 
-    /* Estilos para la sección de inicio */
-    #inicio {
-    padding: 50px;
-    background-color: #7F00FF;
-    }
+      h1 {
+          margin-bottom: 20px;
+      }
 
-    #inicio img {
-    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
-    height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
-    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
-    }
+      /* Estilos para la sección de inicio */
+      #inicio {
+        padding: 50px;
+        background-color: #FFD1DC;
+        text-align: center;
+      }
 
+      #inicio img {
+        width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+        height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+        border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
 
-    /* Estilos para la sección de habilidades */
-    #habilidades {
-    padding: 50px;
-    background-color: #00FF74;
-    }
+      /* Estilos para la sección de habilidades */
+      #habilidades {
+        padding: 50px;
+        background-color: #BCE5F5;
+      }
 
-    /* Estilos para la lista de habilidades */
-    #habilidades ul {
-    list-style-type: none;
-    }
+      /* Estilos para la lista de habilidades */
+      #habilidades ul {
+        list-style-type: none;
+      }
 
-    /* Estilos para la sección de proyectos */
-    #proyectos {
-    padding: 50px;
-    background-color: #07B2DB;
-    }
+      /* Estilos para la sección de proyectos */
+      #proyectos {
+        padding: 50px;
+        background-color: #FFFFC2;
+      }
 
-    /* Estilos para la lista de proyectos */
-    #proyectos ul {
-    list-style-type: none;
-    }
+      /* Estilos para la lista de proyectos */
+      #proyectos ul {
+        list-style-type: none;
+      }
 
-    /* Estilos para la sección de contacto */
-    #contacto {
-    padding: 50px;
-    background-color: #BA55D3;
-    }
+      /* Estilos para la sección de contacto */
+      #contacto {
+        padding: 50px;
+        background-color: #DCE0EA;
+      }
 
-    /* Estilos para la lista de contacto */
-    #contacto ul {
-    list-style-type: none;
-    }
+      /* Estilos para la lista de contacto */
+      #contacto ul {
+        list-style-type: none;
+      }
 
-    /* Estilos generales para los párrafos y listas */
-    p, ul {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    }
+      #contacto p {
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 20px;
+      } 
+
+      /* Estilos generales para los párrafos y listas */
+      p, ul {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+      }
+
+      p {
+          max-width: 300px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 20px;
+      }
+
+      ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+      }
+
+      /* Estilos para los elementos de lista */
+      li {
+        display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+        margin-right: 10px; /* Espaciado entre los elementos de lista */
+      }
   </style>
   <link rel="stylesheet" href="estilos.css">
-
 </head>
 
 <body>
+
   <section id="inicio">
-    <img src="https://pbs.twimg.com/profile_images/1600627275841654786/aRZLxL3n_400x400.jpg" alt="Imagen de cabecera">
-    <h1>PatriciaDev</h1>
-    <p>Soy Patricia Mago, Comunicadora y Desarrolladora Web. Conocimientos en HTML, CSS, JS, WordPress y Notion. Creo páginas no-code y contenido audiovisual.</p>
+  <img src="./cyberpunk_11.png" alt="Imagen de cabecera">
+  <h1>Patricia Dev</h1>
+  <p>Una Comunicadora que ahora se dedica al Desarrollo Web</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/patriciamago/">LinkedIn</a></li>
+      <li><a href="https://twitter.com/patriciadev__">Twitter</a></li>
+      <li><a href="https://github.com/pathmago">GitHub</a></li>
+    </ul>
   </section>
 
   <section id="habilidades">
-    <h2>Habilidades</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Wordpress</li>
-      </ul>
+  <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Otras habilidades relevantes</li>
+    </ul>
   </section>
 
   <section id="proyectos">
-    <h2>Proyectos</h2>
-      <ul>
-        <li>Nombre del Proyecto 1</li>
-        <li>Nombre del Proyecto 2</li>
-        <li>Nombre del Proyecto 3</li>
-      </ul>
+  <h2>Proyectos</h2>
+    <ul>
+      <li>Nombre del Proyecto 1</li>
+      <li>Nombre del Proyecto 2</li>
+      <li>Nombre del Proyecto 3</li>
+    </ul>
   </section>
 
   <section id="contacto">
     <h2>Contacto</h2>
     <p>Puedes contactarme a través de los siguientes medios:</p>
       <ul>
-        <li>Email: heyimjustawebdev@gmail.com</li>
-        <li>Teléfono: +58.412.088.0801</li>
-        <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
+        <li>Email: tu@email.com</li>
+        <li>Teléfono: +123456789</li>
       </ul>
   </section>
 
 </body>
 </html>
+
