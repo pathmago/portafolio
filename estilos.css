@@ -1,0 +1,140 @@
+/* Reset de estilos para el body */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Estilos generales para los encabezados */
+      h1 {
+        margin:auto;
+        padding: 0;
+        font-family:'Trebuchet MS', Arial, sans-serif;
+        font-weight: bold;
+        color: #4124e7;
+        font-size: xx-large;
+      }
+
+      h2 {
+          margin:0px 0px 10px 0px;
+          padding: 0px 0px 10px 0px;
+          color: white;
+          font-size: xx-large;
+          font-family:'Trebuchet MS', Arial, sans-serif;
+      }
+
+      /* Estilos para la sección de inicio */
+      #inicio {
+        padding: 25px 0px 25px 0px;
+        background-color: #ffed24;
+        text-align: center;
+      }
+
+      #inicio img {
+        width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+        height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+        border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 3px solid white;
+
+      }
+
+      /* Estilos para la sección de iconos */
+      #iconos {
+        padding: 20px;
+        background-color: #ffed247c ;
+        text-align: center;
+      }
+
+      /* Estilos para la lista de iconos */
+      #iconos ul {
+        list-style-type: none;
+        max-width: 320px;
+        margin: auto;
+      }
+
+      /* Estilos para las imagenes de iconos */
+      #iconos img {
+        list-style-type: none;
+        max-width: 320px;
+        margin: auto;
+        width: 13%;
+      }
+
+      /* Estilos para la sección de habilidades */
+      #habilidades {
+        padding: 45px 0px 45px 0px;
+        background-color: #7761f2d0 ;
+        text-align: center;
+      }
+
+      /* Estilos para la lista de habilidades */
+      #habilidades ul {
+        list-style-type: none;
+        max-width: 320px;
+        margin: auto;
+      }
+
+      /* Estilos para la sección de proyectos */
+      #proyectos {
+        padding: 45px 0px 45px 0px;
+        background-color: #7761f292;
+        text-align: center;
+      }
+
+      /* Estilos para la lista de proyectos */
+      #proyectos ul {
+        list-style-type: none;
+        max-width: 320px;
+        margin: auto;
+      }
+
+      /* Estilos para la sección de contacto */
+      #contacto {
+        padding: 45px 0px 45px 0px;
+        background-color: #7761f24f;
+        text-align: center;
+      }
+
+      /* Estilos para la lista de contacto */
+      #contacto ul {
+        list-style-type: none;
+        max-width: 320px;
+        margin: auto;
+      }
+
+      #contacto p {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+      } 
+
+      /* Estilos generales para los párrafos y listas */
+      p, ul {
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color: #000000;
+        height: auto;
+      }
+
+      p {
+          max-width: 320px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 20px;
+      }
+
+      ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          
+      }
+
+      /* Estilos para los elementos de lista */
+      li {
+        display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+        margin-right: 10px; /* Espaciado entre los elementos de lista */
+    
+      }
